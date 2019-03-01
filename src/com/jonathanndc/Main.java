@@ -15,7 +15,7 @@ public class Main {
         myArray[3] = new Frigate("Money Waster");
         myArray[4] = new PoliceCar("Johnson's PoliceCar");
 
-        List<Vehicle> myList = new LinkedList<>();
+        LinkedList<Vehicle> myList = new LinkedList<Vehicle>();
         myList.add(new Jeep("Fred's Jeep"));
         myList.add(new Jeep("Frank's Jeep"));
         myList.add(new Hovercraft("Sue's Hover-craft"));
