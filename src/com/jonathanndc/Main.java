@@ -1,6 +1,6 @@
 package com.jonathanndc;
 
-import java.util.ArrayList;
+import java.util.LinkedList;
 import java.util.List;
 
 public class Main {
@@ -15,7 +15,7 @@ public class Main {
         myArray[3] = new Frigate("Money Waster");
         myArray[4] = new PoliceCar("Johnson's PoliceCar");
 
-        List<Vehicle> myList = new ArrayList<>();
+        List<Vehicle> myList = new LinkedList<>();
         myList.add(new Jeep("Fred's Jeep"));
         myList.add(new Jeep("Frank's Jeep"));
         myList.add(new Hovercraft("Sue's Hover-craft"));
